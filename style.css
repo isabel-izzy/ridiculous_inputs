@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    }
+/*Define border and padding in total height and width*/
+ 
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus
+.input:focus-within { 
+  box-shadow: 0 0 0 1px #000;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #dddddd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+  
+    .error-text {
+      padding-top: 5px;
+      color: #DB1F39;
+      font-weight: bold;
+    }
+    
+    .letters-text {
+      color: blue;
+      font-size: 18px;
+    }
+    
+}
+
+
+    #title{
+    width: 100%;
+       
+    }
+
+    .pt-3{
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .input{
+    width: 160px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+         #username{
+            width: 160px;
+            height: 30px;
+            
+         }
+        #password{
+            width: 160px;
+            height: 30px;
+            
+        }   
+
+
+    .frame{
+    width: 550px;
+    height: 400px;
+    border: 1.5px solid #333; 
+    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.4);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+
+ .button {
+    background-color: white;
+    border: 2px solid #3B515C;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+  }
+  
+  .button:hover {
+    background-color: #3B515C;
+    color: white;
+    transition: 400ms;
+  }
+  
+.login-group{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+
+
+
+
